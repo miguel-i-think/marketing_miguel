@@ -1,0 +1,133 @@
+img {
+    width: 75%;
+    margin: 5px;
+  }
+
+body {
+  font-family: 'Product Sans', sans-serif;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #5F6368;
+}
+
+pre{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #5F6368;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color: black; 
+}
+
+h1,h2,h3,h4 {
+  color: #535353;
+  text-align: center;
+}
+
+button {
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.center-text{
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.box2 {
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.2);
+}
+
+.button {
+  background-color: #4c8bf5;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button:hover{
+  background-color: #4075d1;
+}
+
+#img-service {
+  width: 25%
+}
+
+#container {
+    display: grid;
+}
+
+#hero-image {
+  width: 100%;
+  height: auto;
+}
+
+#border-wrap { /* I had to look this up I'll be honest but I thought it looked nice :D */
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right,rgba(60,186,84),rgba(244,194,13),rgba(219,50,54),rgba(72,133,237));
+  padding: 6px;
+}
+
+#container2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 95%;
+  background: #fff;
+  border-radius: 20px;
+}
+
+#container3 {
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+  height: auto;
+  width: 50%;
+  background: #fff;
+  border-radius: 20px;
+}
+
+* {
+
+    padding: 0px;
+    
+    margin: 0px;
+    
+    box-sizing: border-box;
+}
