@@ -11,94 +11,95 @@
 </head>
 </head>
 <body>
+    <main>
+        <header> <!-- Nav -->
+            <nav class="grid-container-header" id="grid-shadow">
+                <a href="https://www.google.com/"><img src="images/google-logo.png" alt="Google" style="display:block; margin:auto; margin-top: 10px; margin-bottom: 10px; width: 25%;"></a>
+                <a href="#what_we_do" class="grid-item">What We Do</a>
+                <a href="#services" class="grid-item">Our Services</a>
+                <a href="#contact_us" class="grid-item">Contact Us</a>
+            </nav>
+        </header>
 
-    <header> <!-- Nav -->
-        <nav class="grid-container-header" id="grid-shadow">
-            <a href="https://www.google.com/"><img src="images/google-logo.png" alt="Google" style="display:block; margin:auto; margin-top: 10px; margin-bottom: 10px; width: 25%;"></a>
-            <a href="#what_we_do" class="grid-item">What We Do</a>
-            <a href="#services" class="grid-item">Our Services</a>
-            <a href="#contact_us" class="grid-item">Contact Us</a>
-        </nav>
-    </header>
+        &nbsp; <!-- is there a better way to add blank space? pls let me know-->
 
-    &nbsp; <!-- is there a better way to add blank space? pls let me know-->
+        <div id="container"> <!-- Hero Image(s) and Title-->
 
-    <div id="container"> <!-- Hero Image(s) and Title-->
+            <img src="images/googleplex-heroimg.jpg" alt="GooglePlex Park" class="center" id="border-wrap">
+                
+            <div class="grid-container-body">
+                <img src="images/Googleplex_Half_Width_Central_courtyard.jpg" alt="GooglePlex Courtyard" style="grid-column-start: 1;" class="center" id="border-wrap">        
+                <img src="images/Googleplex_Full_Width_Water_Feature.jpg" alt="GooglePlex Water" style="grid-column-start: 3;" class="center" id="border-wrap">
 
-        <img src="images/googleplex-heroimg.jpg" alt="GooglePlex Park" class="center" id="border-wrap">
-            
-        <div class="grid-container-body">
-            <img src="images/Googleplex_Half_Width_Central_courtyard.jpg" alt="GooglePlex Courtyard" style="grid-column-start: 1;" class="center" id="border-wrap">        
-            <img src="images/Googleplex_Full_Width_Water_Feature.jpg" alt="GooglePlex Water" style="grid-column-start: 3;" class="center" id="border-wrap">
-
-            <div style="align-content: flex-start; grid-column-start: 2;">
-                <h1 style="grid-column-start: 2; margin-top: -40%;" class="generic-grid-item">Welcome to</h1>
-                <img src="images/google-logo.png" alt="logo" style="grid-column-start: 2; width: 60%; margin-top: 10px;" class="center">
+                <div style="align-content: flex-start; grid-column-start: 2;">
+                    <h1 style="grid-column-start: 2; margin-top: -40%;" class="generic-grid-item">Welcome to</h1>
+                    <img src="images/google-logo.png" alt="logo" style="grid-column-start: 2; width: 60%; margin-top: 10px;" class="center">
+                </div>
             </div>
+
         </div>
 
-    </div>
-
-    &nbsp;
-    
-    <a id="what_we_do">
-    <div id="container2" class="box">
-
-        <h2 class="generic-grid-item" style="color: #535353; padding-top: 10px;"> What We Do </h2>
-        <p class="center-text">Google's mission is to organize the world's information and make it universally accessible and useful. That's why Search makes it easy to discover a broad range of information from a wide variety of sources. Our mission also includes the information in the daily lives of our users. Because of this, users have access to a wide variety of services that span from personal to professional use allowing for quick and easy organization for anyone.</p>
-
-    </div>
-    </a>
-
-    &nbsp;
-
-    <a id="services">
-    <h2 style="padding-top: 20px; padding-bottom: 30px;"> Take A Look At Our Services <br><span style="font-size: medium;">And How We Can Help You</span></h2>
-    </a>
-
-    <div id="boxes">
-        <div> <!-- left boxes start-->
-            <div id="container2" class="box2"> <!-- in retrospect I could've probably made these little floating islands with css but my own stylesheets were starting to confuse me... again.-->        
-                <div id="product">
-                        <img src="images/Google_Search_Logo.png" alt="Google Search Logo" style="width: 5em;" class="center"> 
-                        <p style="font-size: medium;"> The most searched and used search engine in the world. Our search engine handles over 3.5 billion searches per day. Google Search provides from general to specific, filtered answers to any question you may have. <br><em><a href="https://www.google.com" style="color:blue">Try it yourself...</a></em></p>
-                </div>
-            </div>
-            &nbsp;
-            <div id="container2" class="box2">
-                <div id="product">
-                        <img src="images/Google_Maps_logopng.png" alt="Google Maps Logo" style="width: 3.5em;" class="center">
-                        <p style="font-size: medium;"> Discover the world with Google Maps. Maps offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bike, air and public transportation on all your devices. <em><a href="https://www.google.com/maps" style="color:blue">Try it yourself...</a></em></p>
-                </div>
-            </div>
-        </div> <!-- left boxes end-->
-
-        <div> <!-- right boxes start-->            
-            <div id="container2" class="box2">
-                <div id="product">
-                    <img src="images/Gmail_Logo.png" alt="Gmail Logo" style="width: 5em; margin-top: 15px;" class="center">
-                    <p style="font-size: medium;"> Gmail is Google's private and secure email at no cost to our users. Gmail keeps your account & emails encrypted, private and under your control with the largest secure email service in the world. It is also a powerful hub for work, where messages, tasks, and teams come together. <em><a href="https://mail.google.com/mail" style="color:blue">Try it yourself...</a></em></p>
-                </div>
-            </div>
-            &nbsp;
-            <div id="container2" class="box2">
-                <div id="product">
-                    <img src="images/Google_Drive_logo.png" alt="Google Drive Logo" style="width: 5em;" class="center">
-                    <p style="font-size: medium;">  Drive can provide encrypted and secure access to your files. Files shared with you can be proactively scanned and removed when malware, spam, ransomware, or phishing is detected on all of your devices. <br><em><a href="https://www.google.com/drive" style="color: blue;">Try it yourself...</a></em></p>
-                </div>
-            </div>
-        </div> <!-- right boxes end-->
+        &nbsp;
         
-    </div>
-    &nbsp;
+        <a id="what_we_do">
+        <div id="container2" class="box">
 
-    <div style="display: grid; grid-template-columns: auto auto auto; text-align: center;">
-        <a href="https://about.google/products/" style="grid-column-start: 2;"><button class="button">Click Here For All Products</button></a>
-    </div>
+            <h2 class="generic-grid-item" style="color: #535353; padding-top: 10px;"> What We Do </h2>
+            <p class="center-text">Google's mission is to organize the world's information and make it universally accessible and useful. That's why Search makes it easy to discover a broad range of information from a wide variety of sources. Our mission also includes the information in the daily lives of our users. Because of this, users have access to a wide variety of services that span from personal to professional use allowing for quick and easy organization for anyone.</p>
 
-    <a id="contact_us">
-        <h2 style="padding-top: 30px; padding-bottom: 5px;"> Where We're Located <br><span style="font-size: medium;">And How To Contact Us</span></h2>
-    </a>
+        </div>
+        </a>
+
+        &nbsp;
+
+        <a id="services">
+        <h2 style="padding-top: 20px; padding-bottom: 30px;"> Take A Look At Our Services <br><span style="font-size: medium;">And How We Can Help You</span></h2>
+        </a>
+
+        <div id="boxes">
+            <div> <!-- left boxes start-->
+                <div id="container2" class="box2"> <!-- in retrospect I could've probably made these little floating islands with css but my own stylesheets were starting to confuse me... again.-->        
+                    <div id="product">
+                            <img src="images/Google_Search_Logo.png" alt="Google Search Logo" style="width: 5em;" class="center"> 
+                            <p style="font-size: medium;"> The most searched and used search engine in the world. Our search engine handles over 3.5 billion searches per day. Google Search provides from general to specific, filtered answers to any question you may have. <br><em><a href="https://www.google.com" style="color:blue">Try it yourself...</a></em></p>
+                    </div>
+                </div>
+                &nbsp;
+                <div id="container2" class="box2">
+                    <div id="product">
+                            <img src="images/Google_Maps_logopng.png" alt="Google Maps Logo" style="width: 3.5em;" class="center">
+                            <p style="font-size: medium;"> Discover the world with Google Maps. Maps offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bike, air and public transportation on all your devices. <em><a href="https://www.google.com/maps" style="color:blue">Try it yourself...</a></em></p>
+                    </div>
+                </div>
+            </div> <!-- left boxes end-->
+
+            <div> <!-- right boxes start-->            
+                <div id="container2" class="box2">
+                    <div id="product">
+                        <img src="images/Gmail_Logo.png" alt="Gmail Logo" style="width: 5em; margin-top: 15px;" class="center">
+                        <p style="font-size: medium;"> Gmail is Google's private and secure email at no cost to our users. Gmail keeps your account & emails encrypted, private and under your control with the largest secure email service in the world. It is also a powerful hub for work, where messages, tasks, and teams come together. <em><a href="https://mail.google.com/mail" style="color:blue">Try it yourself...</a></em></p>
+                    </div>
+                </div>
+                &nbsp;
+                <div id="container2" class="box2">
+                    <div id="product">
+                        <img src="images/Google_Drive_logo.png" alt="Google Drive Logo" style="width: 5em;" class="center">
+                        <p style="font-size: medium;">  Drive can provide encrypted and secure access to your files. Files shared with you can be proactively scanned and removed when malware, spam, ransomware, or phishing is detected on all of your devices. <br><em><a href="https://www.google.com/drive" style="color: blue;">Try it yourself...</a></em></p>
+                    </div>
+                </div>
+            </div> <!-- right boxes end-->
+            
+        </div>
+        &nbsp;
+
+        <div style="display: grid; grid-template-columns: auto auto auto; text-align: center;">
+            <a href="https://about.google/products/" style="grid-column-start: 2;"><button class="button">Click Here For All Products</button></a>
+        </div>
+
+        <a id="contact_us">
+            <h2 style="padding-top: 30px; padding-bottom: 5px;"> Where We're Located <br><span style="font-size: medium;">And How To Contact Us</span></h2>
+        </a>
+    </main>
     &nbsp;
 
     <div id="contact" style="margin-right: -5%;">
